@@ -1,0 +1,296 @@
+
+
+body {
+    background: url(images/pexels-ollivves-1122409.jpg) center 100% / cover no-repeat;
+}
+
+
+.nav-link {
+    color: #080808;
+}
+
+.nav-link svg {
+    color: #ab00fa;
+}
+
+/* hero */
+#hero{
+    height: 65vh;
+    background: url(images/pexels-pixabay-355747.jpg) center 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 25px black;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.inline {
+    display: inline;
+}
+
+#title {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 0 0 5px #250dfc;
+    color: #ab00fa;
+}
+
+.crown {
+    font-size: 2rem;
+}
+
+.crown2 {
+    display: none;
+    font-size: 5rem;
+}
+
+@media (max-width: 767px) {
+    .crown {
+        display: none;
+        visibility: hidden;
+    }
+    .crown2 {
+        display: block;
+    }
+}
+
+#sub-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    color: rgb(188, 131, 253);
+}
+/* --------------------------------------------------------- */
+
+/* feature */
+#feature {
+    margin-bottom: 20px;
+}
+
+#education-title {
+    font-family: "Kurale", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    color: rgb(47, 0, 255) !important;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.feat-sub {
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#feature-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 20px;
+}
+
+#feature-title > #feature-title-item-1 {
+    flex-basis: 100%;
+}
+
+.school-images {
+    height: 200px;
+    width: 350px;
+    border: 3px solid #ffffff;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.63);
+}
+
+.school-title {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.322);
+    color: #ab00fa !important;
+    font-family: "Kurale", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: left;
+}
+
+.school-par {
+    font-size: 20px !important;
+    color: rgb(152, 150, 255);
+    text-shadow: 0 0 p #250dfc;
+}
+
+.icon-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    background: rgba(109, 109, 109, 0.404);
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 5%;
+    margin-top: 15px;
+}
+
+/* --------------------------------------------------------- */
+
+/* websites */
+
+#websites {
+    background: url(images/pexels-pixabay-268533.jpg) center 100% / cover no-repeat;
+    padding-top: 5px;
+    padding: 20px 10px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255) inset;
+}
+
+#web-title {
+    color: white !important;
+}
+
+#web-sub-title {
+    color: #afafaf;
+    font-size: 25px;
+}
+
+.go-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.car-images {
+    object-fit: cover;
+}
+
+#car-div-2 {
+    height: 43.75rem;
+}
+
+#car-image-2 {
+    position: relative;
+    left: 60%;
+    height: 35rem;
+}
+
+@media (max-width: 1000px) {
+
+    #car-image-2 {
+        left: 0%;
+    }
+}
+
+.float-left {
+    width: 50%;
+}
+
+#float-1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#float-2 {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+
+.car-text {
+    display: grid;
+    text-align: right;
+}
+
+#car-h1-1 {
+    font-family: "Kurale", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(212, 0, 255) !important;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+#car-h1-2 {
+    font-family: "Kurale", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(255, 0, 0) !important;
+    text-shadow: 1px 1px 5px rgba(255, 231, 12, 0.589);
+}
+
+.car-text p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0), 1px 1px 5px black;
+}
+
+.website-link {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 43, 226);
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.website-link:hover {
+    background-color: rgb(88, 63, 228);
+    font-size: 25px;
+}
+
+@media (max-width: 995px) {
+    .car-text p, .car-text h1, .website-link{
+        display: none;
+    }
+}
+/*--------------------------------------------*/
+
+#interest {
+    margin-bottom: 100px !important;
+}
+
+#interest-title {
+    font-family: "Kurale", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(253, 231, 35) !important;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.interest-item h2{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+#int-1 svg{
+    color:rgba(255, 167, 84, 0.699)
+}
+
+#int-2 svg{
+    color:rgb(101, 219, 255, 0.699)
+}
+
+#int-3 svg{
+    color:rgb(255, 83, 83, 0.699)
+}
+
+#int-4 svg{
+    color:rgb(136, 252, 101, 0.699)
+}
+
+
+#contact-me {
+    background: url(images/wavy-black-white-background.jpg) center 55% / cover no-repeat;
+    box-shadow: 0px -10px 20px rgb(63, 63, 63);
+}
+
+
+
+
